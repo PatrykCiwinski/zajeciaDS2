@@ -33,3 +33,9 @@ a = "Zarabiasz powyżej przeciętną" if salary>7000 else "zarabiasz przeciętn�
     "zarabiasz poniżej przeciętnej"
 
 print(a)
+
+liczba = int(input("Podaj liczbę: "))
+
+a= "Nieparzysta" if liczba%2 else "parzysta"
+
+print(a)
